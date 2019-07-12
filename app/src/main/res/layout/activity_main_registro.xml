@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainRegistroActivity">
+
+
+    <ImageView
+        android:layout_width="204dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:inputType="number"
+        android:hint="DNI/RUC"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="-340dp"
+        android:drawableLeft="@drawable/ic_dni"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:inputType="textPersonName"
+        android:hint="Nombre completo"
+        android:id="@+id/editText5"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="-320dp"
+        android:drawableLeft="@drawable/ic_login"/>
+
+
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:inputType="number"
+        android:hint="Numero de Celular"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="-320dp"
+        android:drawableLeft="@drawable/ic_celular"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:inputType="textPersonName"
+        android:hint="Correo"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="-320dp"
+        android:drawableLeft="@drawable/ic_correo"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:inputType="text"
+        android:hint="Contraseña"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="-320dp"
+        android:drawableLeft="@drawable/ic_contrasena"/>
+
+    <CheckBox
+        android:text="Terminos de Condiciones"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:id="@+id/checkBox2"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="-320dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:text="Crear Cuenta"
+        android:background="@drawable/button_style"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:id="@+id/button_crear"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginStart="-300dp"
+        android:textColor="@android:color/background_light"/>
+
+
+
+
+
+</LinearLayout>
